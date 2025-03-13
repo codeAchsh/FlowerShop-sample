@@ -1,1 +1,4 @@
 ECHO ÇÕ <ON> Ç≈Ç∑ÅB
+".vscode/" 
+"node_modules/" 
+"*.log" 
