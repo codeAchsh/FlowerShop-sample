@@ -552,3 +552,104 @@ font-family: "Inria Serif", serif; */
     }
 
 }
+
+@media (max-width: 480px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-left button{
+        width: 150px;
+        font-size: 20px;
+        margin: -.3em auto;
+    }
+    .gallery{
+        width: 100%;
+        position: relative;
+    }
+    .gallery p{
+        width: 80%;
+        left: 10%;
+    }
+    .gallery h1{
+        width: 90%;
+        font-size: 22px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        left: 5%;
+    }
+    .gallery .gal-btn{
+        width: 30%;
+        margin-top: 30px;
+        left: 80px;
+    }
+    .gallery .shop-btn{
+        width: 30%;
+        margin-top: 30px;
+        right: 10px;
+    }
+    .history,
+    .difference{
+        width: 100%;
+        height: auto;
+        min-height: 550px;
+    }
+    .history img
+    .difference img{
+        width: 30%;
+        left: 35%;
+    }
+    .history h2,
+    .difference h2{
+        width: 80%;
+        left: 30%;
+    }
+    .history p
+    .difference p{
+        width: 80%;
+        left: 10%;
+    }
+    .more {
+        width: 100%;
+        min-height: 100vh;
+    }
+    .more div h3{
+        left: 1em;
+    }
+
+    .more div {
+        width: 100%;
+        height: auto; 
+    }
+    .contact{
+        width: 100%;
+        height: auto;
+        min-height: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .contact-left h2,
+    .contact .contact-right h2{
+        width: 80%;
+        top: 10%;
+        left: 20%;
+    }
+    .contact .contact-left p{
+        top: 30%;
+    }
+    .contact .contact-left{
+        width: 80%;
+        height: 40%;
+        top: 5%;
+        left: 10%;
+    }
+    .contact .contact-right{
+        width: 80%;
+        height: 45%;
+        top: 50%;
+        left: 10%;
+    }
+}
