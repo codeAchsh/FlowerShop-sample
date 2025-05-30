@@ -564,6 +564,12 @@ font-family: "Inria Serif", serif; */
         font-size: 20px;
         margin: -.3em auto;
     }
+    .nav-right #menu.show {
+        margin-left: 0;
+    }
+    .nav-right ul{    
+        left: 0;
+    }
     .gallery{
         width: 100%;
         position: relative;
